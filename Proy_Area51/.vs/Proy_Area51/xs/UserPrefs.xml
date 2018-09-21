@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{6D3DF5E4-1325-9E5D-2864-2670721BB8CA}|">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MaskBoss.cs">
+    <Files>
+      <File FileName="Assets/Scripts/CamMovement.cs" Line="65" Column="2" />
+      <File FileName="Assets/Scripts/ApareceDelSuelo.cs" Line="166" Column="2" />
+      <File FileName="Assets/Scripts/MovementSaltoV2.cs" Line="6" Column="5" />
+      <File FileName="Assets/Scripts/PoderDePuas.cs" Line="148" Column="38" />
+      <File FileName="Assets/Scripts/Enemy.cs" Line="9" Column="5" />
+      <File FileName="Assets/Scripts/MaskBoss.cs" Line="12" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
