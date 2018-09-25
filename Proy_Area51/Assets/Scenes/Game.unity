@@ -310,6 +310,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   charRigidbody2D: {fileID: 85877918}
+  hp: 1
   characterSpeed: 0
   jumpSpeed: 6
   distance: -1
@@ -6516,6 +6517,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   charRigidbody2D: {fileID: 617080727}
+  hp: 1
   startTransform: {fileID: 617080731}
 --- !u!212 &617080730
 SpriteRenderer:
@@ -6882,6 +6884,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   charRigidbody2D: {fileID: 692146400}
+  hp: 1
   characterSpeed: 0
   jumpSpeed: 6
   distance: -1
@@ -9714,6 +9717,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   charRigidbody2D: {fileID: 1345486109}
+  hp: 10
   startTransform: {fileID: 1345486108}
 --- !u!1 &1353012904
 GameObject:
@@ -9938,6 +9942,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   charRigidbody2D: {fileID: 1373659556}
+  hp: 1
   characterSpeed: 0
   jumpSpeed: 6
   distance: -1

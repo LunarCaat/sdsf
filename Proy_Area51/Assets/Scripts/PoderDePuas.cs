@@ -133,6 +133,7 @@ public class PoderDePuas : MonoBehaviour {
         //monster.SetParent(transform);
     }
     public void UnStabMonster(Enemy monsterStabbed) {
+        if (monsterStabbed!=null)
         monsterStabbed.GetComponent<Enemy>().UnstabThis();
         //stabCollider.enabled = false;
         //isStabbingAMonster = false;

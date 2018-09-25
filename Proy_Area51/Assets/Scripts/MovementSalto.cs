@@ -12,10 +12,10 @@ public class MovementSalto : MonoBehaviour {
 
     public bool isAttacking = false;
 
-    public Transform player;
+    private Transform player;
 	// Use this for initialization
 	void Start () {
-		
+        player = GameObject.FindGameObjectWithTag("Player").transform;
 	}
 	
 	// Update is called once per frame

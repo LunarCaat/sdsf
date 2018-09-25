@@ -19,6 +19,7 @@ public class MaskBoss : Enemy {
 	}
     public override void StabThis(Transform pua)
     {
+        TakeDamage();
         canMove = false;
         transform.SetParent(pua);
     }

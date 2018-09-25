@@ -6,6 +6,7 @@ public class Enemy : MonoBehaviour {
     private RigidbodyType2D startRigidBodyType;
     protected Transform startParent;
     public Rigidbody2D charRigidbody2D;
+    public int hp=1;
 
 	// Use this for initialization
 	protected virtual void Start () {
@@ -16,6 +17,7 @@ public class Enemy : MonoBehaviour {
 	
     public virtual void StabThis(Transform pua)
     {
+        TakeDamage();
         charRigidbody2D.bodyType = RigidbodyType2D.Static;
         transform.SetParent(pua);
     }
@@ -27,5 +29,15 @@ public class Enemy : MonoBehaviour {
 
 
     }
-	
+    public virtual void TakeDamage(int damage =1)
+    {
+        hp -= damage;
+        if (hp <= 0) DestroyThis();
+    }
+
+    protected virtual void DestroyThis()
+    {
+        Destroy(gameObject);
+    }
+
 }
