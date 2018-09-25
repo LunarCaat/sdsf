@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour {
     private RigidbodyType2D startRigidBodyType;
-    private Transform startParent;
+    protected Transform startParent;
     public Rigidbody2D charRigidbody2D;
 
 	// Use this for initialization
@@ -14,13 +14,13 @@ public class Enemy : MonoBehaviour {
         startParent = transform.parent;
 	}
 	
-    public void StabThis(Transform pua)
+    public virtual void StabThis(Transform pua)
     {
         charRigidbody2D.bodyType = RigidbodyType2D.Static;
         transform.SetParent(pua);
     }
 
-    public void UnstabThis()
+    public virtual void UnstabThis()
     {
         charRigidbody2D.bodyType = startRigidBodyType;
         transform.SetParent(startParent);
